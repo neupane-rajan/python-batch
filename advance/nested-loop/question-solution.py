@@ -64,10 +64,10 @@ A B C D
 
 """
 
-# for i in range(1,4):
-#     for j in range(1,4):
-#         print(i+j-1,end=" ")
-#     print()
+for i in range(1,4):
+    for j in range(1,4):
+         print(i+j-1,end=" ")
+    print()
 
 """
 *
@@ -214,10 +214,7 @@ for i in range(5):
 4 8 12 16
 """
 
-print(
-    """
-1 2 3 4
-2 4 6 8
-     
-"""
-)
+for i in range(1,5):
+    for j in range(1,5):
+        print(i*j,end=" ")
+    print()
