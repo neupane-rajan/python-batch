@@ -6,7 +6,7 @@ All notes that I have written while teaching are in this repository.
 
 ## How to use
 
-- Clone this repo: `github.com/neupane-rajan/python-batch`
+- Clone this repo: `github.com/neupane-rajan/python-batch.git`
 - Open any `.py` file and run it with Python 3: `python filename.py`
 
 ## Notes
