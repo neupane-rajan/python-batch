@@ -1,0 +1,11 @@
+# vscode shortcuts keys
+- `ctrl + P`: Quick Open files by name
+- `ctrl + Shift + P`: Open Command Palette
+- `ctrl + ,`: Open Settings
+- `ctrl + B`: Toggle Sidebar visibility
+- `ctrl + \`: Split editor
+- `ctrl + W`: Close current editor
+- `ctrl + F`: Find in current file
+- `ctrl + H`: Replace in current file
+- `ctrl + d`: Select next occurrence of current selection
+- `alt + Up/Down Arrow`: Move line up/down
