@@ -17,7 +17,7 @@ print(num)
 # insert() add item at specific index
 # sample.insert(index,value)
 class_11 =["ram","shyam","hari","gita",["ram","shyam","hari"]]
-print(class_11[-2])
+# print(class_11[-2])
 
 
 """
@@ -29,7 +29,9 @@ student_name.pop(3)
 print(student_name)
 
 # remove us used to remove item by given value.
-
+class_11 = ["ram", "shyam", "hari", "gita", ["ram", "shyam", "hari"]]
+class_11.insert(1,"RAM")
+print(class_11)
 student_name.remove("ram")
 print(student_name)
 
@@ -37,7 +39,7 @@ print(student_name)
 
 # sort is used to sort the list in ascending order or in decending order using reverse = True
 #reverse is used to reverse the list
-
+1,5,9,0,8,3,4
 
 
 string_data = ["banana","apple","cherry","mango","kiwi"]
@@ -61,3 +63,4 @@ print(string_data)
 # numList = [10,20,30,40,50,60,70,80,90]
 # for i in range(1,20,3):
 #     print(i)
+

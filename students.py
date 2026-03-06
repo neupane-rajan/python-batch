@@ -44,3 +44,14 @@
 3 6 9 12
 4 8 12 16
 """
+
+
+n = input("enter a number")
+digit = len(n)
+sum = 0
+for d in n:
+    sum = sum + int(d) ** digit
+if sum == int(n):
+    print("armstrong")
+else:
+    print("not an armostrong number")
