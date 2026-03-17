@@ -16,6 +16,6 @@ All notes that I have written while teaching are in this repository.
 
 ## Contributing
 
-If you want to suggest edits or add examples, open an issue or submit a pull request with small, focused changes.
+If you want to suggest edits or add examples, open an issue or submit a pull request with small, focused changes. 
 
-
+## i will be updating this weekly or sometimes daily
