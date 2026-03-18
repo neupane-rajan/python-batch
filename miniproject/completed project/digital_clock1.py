@@ -53,11 +53,7 @@ anchor ="s" pin am/pm  equall in bottom .
 pady(0,14) lift it slightly either up or down """
 
 separator = tk.Label(
-    root,
-    text="--" * 44,
-    bg="#0d0d1a",
-    fg="#1a3a3a",
-    font=("Courier", 10)
+    root, text="—" * 44, bg="#0d0d1a", fg="#1a3a3a", font=("Courier", 10, "bold")
 )
 separator.pack()
 
@@ -70,4 +66,52 @@ date_label = tk.Label(
     pady=4,
 )
 date_label.pack()
+
+status_label = tk.Label(
+    root,
+    text="CLOCK ⏱️",
+    font=("Courier", 14, "bold"),
+    bg="#0d0d1a",
+    fg="#0a5c4a",
+    pady=2,
+)
+status_label.pack()
+
+
+def update_time():
+    """
+    you can imagine function as key of tv remote each key have one fucntion
+
+    1.time_string: it is updating our time by hourse,minutes and second
+    where:
+    %I->12 hour  based time or %H-> 24 hour based time
+    %M->minutes
+    %s ->second
+
+    2.ampm_string:
+    where %p gives either am or pm
+
+    3.date_string
+    ->tuesday,17,2026
+    %A-> Day Name
+    %d-> date
+    %B-> month name
+    %Y->years
+    .upper() make everything captial
+    """
+    time_string = strftime("%I:%M:%S")
+    ampm_string = strftime("%p")
+    date_string = strftime("%A, %d %B %Y").upper()
+    clock_label.config(text=time_string)
+    ampm_label.config(text=ampm_string)
+    date_label.config(text=date_string)
+
+    if int(strftime("%S")) % 2 == 0:
+        clock_label.config(fg="#00ffea")
+    else:
+        clock_label.config(fg="#006655")
+    root.after(500, update_time)
+
+
+update_time()
 root.mainloop()
