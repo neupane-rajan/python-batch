@@ -9,7 +9,7 @@ my_set = {1, 2, 3, 4, 5, 6}
 # we cannot put any duplicate item in set
 # a set is like magical bag that remove the duplicates item automatically.
 num = {2, 3, 4, 5, 6, 6, 9, 9, 1, 8, 2}
-# print(type(num))
+# print(num)
 
 # why is set unorder?
 # elemtes are stored based on hash value
@@ -30,6 +30,6 @@ s.add(20)
 
 # set is not always in assending order
 s = {1, 10, 3, 7}
-# print(s)
+print(s)
 
-print(hash("a"), hash("a"))
+# print(hash("a"), hash("a"))

@@ -1,4 +1,6 @@
-a = [1, 2]
-b = [3, 4]
-a += b
-print(a)
+
+set1 = set()
+print(type(set1))
+b = ()
+print(type(b))
+print(hash(b))
