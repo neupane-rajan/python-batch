@@ -15,7 +15,7 @@ for i in range(x):       #   outerloop
 #         print("*",end=" ")
 #     print()
 
-for i in range(1,4):
-    for j in range(1,8):
-        print(i,j)
-    
+for i in range(1, 4):
+    for j in range(1, 8):
+        print(i, j, end="")
+    print()

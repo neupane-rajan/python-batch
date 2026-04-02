@@ -6,8 +6,8 @@
 #     pass
 
 """
- range() range(end) yedi aauta matra value range bhitra xa vane hamro start index 0 bata suru hunca ani end-1 samm janxa
- range() 2.range(start, end) yedi range bhitr duiota value xa vane hamro start index ma diyeko value bata suru hunxa ani end chai end-1 samme janxa
+ range() range(end) yedi aauta matra value range bhitra xa vane hamro start index 0 bata suru hunca ani end chai last given number ma hunxa
+ range() 2.range(start, end) yedi range bhitr duiota value xa vane hamro start index ma diyeko value bata suru hunxa ani end chai diyeko second number ma hunxa
  range() 1.range(start, end,step)
  
 """
