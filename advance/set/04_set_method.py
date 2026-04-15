@@ -1,24 +1,22 @@
-a = {1,2,3,4,5}
-b = {1,2,3,4}
+# a = {1, 2, 3, 4}
+# b = {2, 3, 4, 5}
 # union() or "|"
-union = a.union(b,[1,2,3,4])
+# union = a.union(b,[1,2,3,4])
 # print(union)
 
 
-
 # intersection()
-intersection = a.intersection(b)
+# intersection = a.intersection(b)
 # print(intersection)
 
 # difference()
-difference = a.difference(b)
+# difference = a.difference(b)
 # print(difference)
 
 
 # symmetric_difference()
-sm_dif = a.symmetric_difference(b)
+# sm_dif = a.symmetric_difference(b)
 # print(sm_dif)
-
 
 
 # issubset()
@@ -32,10 +30,29 @@ sm_dif = a.symmetric_difference(b)
 
 
 # isdisjoint() -> yedi dui set bich kunai pani elements common hudaina vane teslai disjoint set vaninxa
-print(a.isdisjoint(b))
+# print(a.isdisjoint(b))
 
+
+"""
+print(f"b before intersection update:", b)
 # intersection_update()
-# difference_update()
-# symmetric_difference_update
+b.intersection_update(a)
+# y = a.intersection(b)
+print("value of a:", a)
+# print(x, y)
+print("b after intersection_update", b)
+# difference_update(): it removes comment elements from the orginal set.
+a = {1, 2, 3, 4}
+b = {2, 3, 4, 5}
+# print("b before: ", b)
+# b.difference_update(a)
+# print("b after: ", b)
+"""
 
+# symmetric_difference_update : keep elements that are non common in  given sets
+a = {1, 2, 3, 4}
+b = {2, 3, 4, 5}
+b.symmetric_difference_update(a)
+print(a)
+print(b)
 # when to use operater and when to use method in sets
