@@ -36,4 +36,42 @@ data = dict(name="rajan", age=22, course="python")
 
 # print(data)
 
-data = dict(name="dhirendra", age=17, course="python", address="purba lamki")
+
+# Accessing Values in dictionary
+data = {
+    "name": "dhirendra",
+    "age": 17,
+    "course": "python",
+    "address": "purba lamki",
+    "test": "123",
+}
+
+# 1.Method
+# if key doesnot exist in dictionary then it will throw us KeyError
+# print(data["address"])
+
+# 2.Method :if key doesnot exist in dictionary then it will return None
+# .get()
+# print(data.get("name"))
+
+# Adding key and value to the dictionary
+# data["school"] = "USS"
+
+# updating dictionary
+# data["name"] = "Bharat"  # in this way we can update our dictionary
+
+
+# Removing Items
+
+# pop: remove specific items and return the removed value
+# data.pop("name")
+# popitem(): remove last item from dictionary
+# data.popitem()
+
+# del: remove specific items. its doesnt return any value and this is keyword not a method
+# del data["age"]
+
+# clear(): clear everything form dictionary and return empty dictionary
+data.clear()
+
+print(data)
