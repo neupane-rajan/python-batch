@@ -34,4 +34,6 @@ data = dict(name="rajan", age=22, course="python")
 # = conveted into :
 # "rajan" = conveted in value
 
-print(data)
+# print(data)
+
+data = dict(name="dhirendra", age=17, course="python", address="purba lamki")
