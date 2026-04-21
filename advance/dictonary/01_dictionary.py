@@ -55,7 +55,7 @@ data = {
 # print(data.get("name"))
 
 # Adding key and value to the dictionary
-# data["school"] = "USS"
+data["school"] = "USS"
 
 # updating dictionary
 # data["name"] = "Bharat"  # in this way we can update our dictionary

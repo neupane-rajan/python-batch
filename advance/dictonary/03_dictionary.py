@@ -20,6 +20,19 @@ names = ["ram", "shyam", "hari", "krishna", "sita"]
 # data = {name: len(name) for name in names}
 
 data = {name: len(name) for name in names}
-print(data)
+# print(data)
 
+# Advanced Concepts
+
+# 1.copy()
+# it help us to avoids modifying original dictionary
+# new_dict = students.copy()
+# print(new_dict)
+
+# 2. formkeys()
+x = ["a", "b", "c", "d"]
+y = [0, 0, 0, 0]
+y = dict.fromkeys(x, y)
+
+print(y)
 
