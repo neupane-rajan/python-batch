@@ -5,6 +5,7 @@ students = {
     "student2": {"name": "Dhirendra", "age": "18"},
     "student3": {"name": "Bharat", "age": "18"},
     "student4": {"name": "Shirish", "age": "16"},
+    # "grade": "hello",
 }
 
 shirish_info = students["student4"]["age"]
@@ -29,10 +30,13 @@ data = {name: len(name) for name in names}
 # new_dict = students.copy()
 # print(new_dict)
 
-# 2. formkeys()
-x = ["a", "b", "c", "d"]
-y = [0, 0, 0, 0]
+# 2. formkeys(): is a dictionary method which is used to creat a new dictionary using group of item(string, list,set,tuple) as key and giving  same value all.
+x = "abcd"
+y = 0
 y = dict.fromkeys(x, y)
 
 print(y)
 
+# setdefault()
+students.setdefault("grade", "pass")
+print(students)
