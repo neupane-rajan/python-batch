@@ -1,8 +1,8 @@
-x = {1: "a", 2: "b", 3: "c"}
+def random(sum):
+    return "hello"
+    sum = sum + 1
+    print(sum)
+    return sum
 
-y = x.copy()
 
-y[4] = "this is 4"
-print("x: ", x)
-print("y: ", y)
-
+print(random(5))
