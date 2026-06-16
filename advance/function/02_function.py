@@ -16,5 +16,38 @@ def sum(a, b):
     return sum
 
 
-sub = sum(b=5, a=3)
-print(sub)
+# sub = sum(b=5, a=3)
+# print(sub)
+
+
+# check even or odd using function
+
+
+def check_num(num):
+    if num % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+
+
+# number = int(input("enter a number: "))
+
+# check_num(number)
+
+
+# default parameter
+
+
+def greeting(name="Random"):
+    print(f"hello {name}, welcome back ")
+
+
+greeting(name="niijo")
+
+
+def citizen(country, district):
+    print(country, district)
+
+
+citizen("nepal", "kailali") #postional Argument: position matter
+citizen(district="Kailai", country="Nepal")  # keyword arguments:position doesnot matter
